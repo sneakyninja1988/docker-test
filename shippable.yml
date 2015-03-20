@@ -3,4 +3,4 @@ script:
   - echo hello
   - curl -sSL https://get.docker.com/ubuntu/ | sudo sh
   - sudo docker info
-  - sudo docker run postgres
+  - sudo docker run postgres echo Hey there!
