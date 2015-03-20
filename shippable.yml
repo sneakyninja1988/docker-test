@@ -1,3 +1,4 @@
 language: java
 script:
   - echo hello
+  - sudo docker info
